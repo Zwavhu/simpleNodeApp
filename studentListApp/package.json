@@ -1,0 +1,27 @@
+{
+  "name": "studentlistapp",
+  "version": "1.0.0",
+  "main": "class-list-app.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["html"]
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "4.17.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "keywords": [],
+  "description": ""
+}
